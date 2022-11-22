@@ -7,7 +7,7 @@ CREATE TABLE pets (
     name VARCHAR,
     species VARCHAR,
     breed VARCHAR,
-    age int
+    age BIGINT
 );
 
 INSERT INTO pets (name, species, breed, age) VALUES 
